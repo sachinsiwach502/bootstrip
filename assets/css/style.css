@@ -148,6 +148,12 @@
     }
 }
 
+@media (max-width:576px) {
+    .mt-575 {
+        margin-bottom: 900px;
+    }
+}
+
 .no {
     margin: 0;
 }
