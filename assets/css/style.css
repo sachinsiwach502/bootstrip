@@ -251,5 +251,39 @@
 
 .btn-close {
     margin: 0 !important;
+}
 
+.login {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #fff;
+    width: 144px;
+    height: 43px;
+    top: 394px;
+    left: 1438px;
+    padding: 8px, 24px, 8px, 24px;
+    border-radius: 25.5px;
+    gap: 10px;
+    background-color: #000000;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.h-365 {
+    height: 365px;
+}
+
+.login:hover {
+    background-color: #fff;
+    color: #000000;
+}
+
+@media (max-width:576px) {
+    .fc {
+        flex-direction: column;
+    }
 }
